@@ -1,4 +1,5 @@
 # Centria Software developer assistant position application Documentation
+
 Overview
 This C# console application allows users to search for current news and also news based on several parameters such as:
 (all the input formats are written right before they need to be entered)
@@ -20,20 +21,20 @@ Search for news articles based on user-defined search parameters (previously men
 Display news, articles with relevant information such as title, author, publication date, and Source.
 Provide error handling when receiving input from the user.
 
-#Requirements
+# Requirements
 .NET SDK installed on the system.
 Internet connectivity to access the news API.
 From NuGet Package Manager 2 packages are needed:
 * NewsApi: This is to access the API in C#
 * System.Configuration.ConfigurationManager: Gives access to the Configuration Manager class which provides the opportunity to read the API key from the App.config
 
-#Installation
+# Installation
 Clone or download the source code from the GitHub repository
 Open the solution in Visual Studio or your preferred C# IDE
 Restore the NuGet packages which were previously mentioned
 Build the solution to ensure all dependencies are resolved.
 
-#API KEY
+# API KEY
 There are 2 ways use the program with the API KEY
 
 First is setting it up as an environmental variable. In order to do that have to run the a cmd as administrator.
@@ -47,8 +48,8 @@ Second option is to use the App.config where you have to replace the value`s pro
 
 In any case the program is set up with a Status check that will send a response in case if the API key would have any kind of problem.
 
-#Credits
+# Credits
 This application utilizes https://newsapi.org/ in order to fetch the data.
 
-#License
+# License
 This software is under the MIT License.
